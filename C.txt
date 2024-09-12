@@ -1,0 +1,268 @@
+
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Portafolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!-- Chats -->
+		<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=c05364eb-58e5-4c51-a104-53bf64747e6d"> </script>
+		<!-- Icono-->
+		<link rel="shortcut icon" href="/images/golo.jpeg" type="image/x-icon">
+	</head>
+	<body class="is-preload">
+		
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<img src="/images/golo.jpeg" id="img">
+					<style>
+						#img{
+							width: 75px;
+							border-radius: var(--bs-dark);
+							margin-left: 75px;
+							border-radius: 1vh;
+							margin-bottom: 45%;
+						}
+					</style>
+					<nav>
+						<ul>
+							<li><a href="#intro">Inicio</a></li>
+							<li><a href="#one">Sobre Mi</a></li>
+							<li><a href="#two">Casos De Éxito</a></li>
+							<li><a href="#three">Intereses/Publicaciones</a></li>
+							<li><a href="#fourt">Contacto</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>BIENVENIDO</h1>
+							<p>Hola, soy Josué, un estudiante de Ingeniería en sistemas <br>
+							Estoy orientado a la parte del <strong>BackEnd</strong> en proyectos académicos.
+							<br>
+							<h3>OBJETIVO</h3>
+							<p class="masthead-subheading font-weight-light mb-0">Contribuir con mis conocimientos prácticos y 
+								teóricos <br> en el área de Ing. En Sistemas y Redes Informáticas, con el fin de <br> adquirir nuevos 
+								conocimientos, mejorar con ello mi desarrollo profesional <br> y personal. </p>
+							<br>
+							<h3 class="text-center mb-4">HABILIDADES</h3>
+							<div class="row">
+								<div class="col-lg-4 ms-auto"><p class="lead">Soy programador con conocimientos en lenguajes como: 
+									<ul>
+										<li>C#</li>
+										<li>JavaScript</li>
+										<li>PHP</li>
+									</ul>
+								</p></div>
+								<div class="col-lg-4 me-auto"><p class="lead">Trabajo con diferentes bases de datos como:
+									<ul>
+										<li>SQL Server</li>
+										<li>MongoDB</li>
+										<li>MySql</li>
+									</ul>
+									<span class="text-center mt-4 lead">
+										Entre las tecnologías con las que e trabajado esta: Node.js, Vue.js, Composer, Xampp, Express entre otras. <br>
+										Estoy abierto a trabajar con cualquiera que ayude a expandir mis conocimientos.
+									</span>
+								</p>    
+							 </div>
+							</div>
+								
+
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Ver mas</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+						<!--<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a> -->
+							<div class="content">
+								<div class="inner">
+									<h2>Sobre Mi</h2>
+									<p>En esta sección conocerás más sobre mis habilidades, las cuales te las presento en mi perfil profesional, el cual puedes acceder obtener dando clic al botón que se te presenta a continuación. </p>
+									<ul class="actions">
+										<li><a href="/docs/PTL.pdf" download="Perfil Profesional" class="button">Descargar</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					<!--	<section>
+							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Feugiat consequat</h2>
+									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Ultricies aliquam</h2>
+									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section> -->
+					</section>
+
+				<!-- Two -->
+				<!--	<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>What we do</h2>
+							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Lorem ipsum amet</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-lock"></span>
+									<h3>Aliquam sed nullam</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-cog"></span>
+									<h3>Sed erat ullam corper</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-desktop"></span>
+									<h3>Veroeros quis lorem</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-link"></span>
+									<h3>Urna quis bibendum</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon major fa-gem"></span>
+									<h3>Aliquam urna dapibus</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section> -->
+
+				<!-- Three --> <!--
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Get in touch</h2>
+							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<div class="split style1">
+								<section>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><a href="" class="button submit">Send Message</a></li>
+										</ul>
+									</form>
+								</section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Address</h3>
+											<span>12345 Somewhere Road #654<br />
+											Nashville, TN 00000-0000<br />
+											USA</span>
+										</li>
+										<li>
+											<h3>Email</h3>
+											<a href="#">user@untitled.tld</a>
+										</li>
+										<li>
+											<h3>Phone</h3>
+											<span>(000) 000-0000</span>
+										</li>
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div> -->
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<li>
+						<h3>Social</h3>
+						<ul class="icons">
+							<li><a href="https://twitter.com/Maurhy3" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/profile.php?id=100004565507537" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://github.com/USIS022519" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.instagram.com/maurhy_moreno/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://www.linkedin.com/in/josuet/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						</ul>
+					</li>
+					<ul class="menu">
+						<li> <strong>Dirección: Calle. Principal de Col. La Pradera. Ciudad de El Tránsito. <br>
+							Departamento de San Miguel. </strong></li>
+						<li> <strong>Correo: maurhymoreno3@gmail.com </strong></li>
+						<li> <strong>Tel: 71074339 </strong></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
