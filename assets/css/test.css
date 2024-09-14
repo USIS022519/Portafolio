@@ -1859,10 +1859,10 @@ input, select, textarea {
 			#nav a.active {
 				opacity: 1.0;
 			}
-
-				/*#nav a.active:after {
+				/*Aca comentar*/
+				#nav a.active:after {
 					border-bottom-width: 0.5em;
-				} */
+				} 
 
 		@media screen and (max-width: 980px) {
 

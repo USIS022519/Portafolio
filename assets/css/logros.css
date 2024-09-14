@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #4b0082; /*Aca tambien #f0f8ff*/
+    color: #333;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: #ccb42a;
+    margin-top: 1em;
+    font-size: 2.5rem; /* Título más pequeño */
+}
+
+.achievements {
+    padding: 1.5em; /* Padding reducido */
+    background: linear-gradient(135deg, #4b0082, #6a0dad); /* Gradiente animado */
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.achievements::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+    animation: pulse 10s infinite ease-in-out;
+    z-index: 1;
+}
+
+.achievements-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2em; /* Menor separación entre tarjetas */
+    margin-top: 2em;
+    position: relative;
+    z-index: 2;
+}
+
+.achievement-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 1em); /* Tarjetas un poco más pequeñas */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.achievement-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.achievement-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta las imágenes para que llenen el contenedor sin distorsionar */
+    aspect-ratio: 16/9;
+}
+
+.card-info {
+    padding: 0.5em; /* Padding reducido */
+    text-align: center;
+}
+
+.card-info h4 {
+    color: #4b0082; /* Texto morado para contraste en fondo blanco */
+    font-size: 1.2rem; /* Título de tarjeta más pequeño */
+    margin-bottom: 0.5em;
+}
+
+/* Cabecera con fondo y diseño mejorado */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+    background: linear-gradient(135deg, #6a0dad, #4b0082); /* Gradiente atractivo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 0px; /*Modifique esto porque me gusta mas asi: 15px;; */
+    position: relative;
+    z-index: 3;
+    margin: 0em 0; /*Modifique esto porque me gusta mas asi: 1em 0; */
+}
+
+.header-icon {
+    width: 50px; /* Tamaño de las imágenes */
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Animación del fondo */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.2;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0.2;
+    }
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .achievements-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .achievement-card {
+        width: 100%;
+    }
+
+    .header-icon {
+        width: 40px; /* Tamaño más pequeño en pantallas pequeñas */
+        height: 40px;
+    }
+}
+
+.achievement-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ajusta las imágenes para que se vean completas */
+    aspect-ratio: auto;  /* Elimina la restricción de la relación de aspecto */
+}
+
+.round-icon {
+    width: 40px; /* Ajusta el tamaño según sea necesario */
+    height: 40px; /* Asegúrate de que el ancho y la altura sean iguales */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Ajusta la imagen para que llene el contenedor sin distorsionar */
+}
