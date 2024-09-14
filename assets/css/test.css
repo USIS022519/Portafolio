@@ -1860,9 +1860,9 @@ input, select, textarea {
 				opacity: 1.0;
 			}
 
-				#nav a.active:after {
+				/*#nav a.active:after {
 					border-bottom-width: 0.5em;
-				}
+				} */
 
 		@media screen and (max-width: 980px) {
 
