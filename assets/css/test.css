@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	background-color: #801dad;
+	background-color: #410aa8;
 }
 
 ol, ul {
@@ -1367,7 +1367,7 @@ input, select, textarea {
 
 	strong, b, h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #363636;
+		color: #080808;
 	}
 
 	h1 {
@@ -1534,7 +1534,7 @@ input, select, textarea {
 
 		header > p {
 			margin: 0.5em 0 0 0;
-			color: #aaa;
+			color: #0c0b0b;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1859,10 +1859,10 @@ input, select, textarea {
 			#nav a.active {
 				opacity: 1.0;
 			}
-				/*Aca comentar*/
+				/*Aca comentar
 				#nav a.active:after {
 					border-bottom-width: 0.5em;
-				} 
+				} */
 
 		@media screen and (max-width: 980px) {
 
